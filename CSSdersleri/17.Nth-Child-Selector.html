@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth-Child-Selector</title>
+    <style>
+        p{
+            font-size: 1.em;
+        }
+        /*p:nth-child(1){
+            color: red;
+        }
+        p:nth-child(3){
+            color: blue;
+        }
+        p:nth-child(even){
+            color: red;
+
+        }
+        p:nth-child(odd){
+            color: blue;
+        }*/
+        ul{
+            font-size: 1.5em;
+            list-style-type: none;
+
+        }
+        /* n=0 b=0, 0,2,4,8,10 */
+        ul li:nth-child(2n){
+            color: red;
+        }
+        ul li:nth-child(n+4){
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element</li>
+    </ul>
+    <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus velit nemo quam ex repellat odit minus alias, tempora recusandae aliquam sit iure sed atque, vitae itaque rerum? Cum, placeat corrupti!
+
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptates consectetur sunt nostrum. Debitis vitae eius officia harum quia nesciunt dolorum tempora aliquam porro veniam delectus ipsam, at eum non!
+
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus voluptates quos placeat eveniet. Modi tempore earum, optio ab hic minima vel illum, officiis nemo eum distinctio. Veritatis cupiditate ducimus exercitationem.
+
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt explicabo ab corporis modi natus atque non molestias ipsam quaerat culpa! Corrupti doloribus laborum ab quis libero eligendi aperiam? Doloremque, quod!
+
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aperiam dolore fugiat incidunt sint ex explicabo at soluta nesciunt voluptas dolorem non cupiditate perspiciatis enim nobis recusandae, accusamus harum in!
+
+    </p>-->
+
+</body>
+</html>
